@@ -89,6 +89,11 @@ public class MenuDriven {
                     }
                     System.out.println("reverse of number : "+rev);
                     break;
+                case 6:
+                    break;
+                default:
+                    System.out.println("invalid input");
+                    break;
             }
             System.out.println("Do you want to continue:1 for yes 2 for no");
 
