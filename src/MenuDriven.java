@@ -43,7 +43,25 @@ public class MenuDriven {
                     else{
                         System.out.println("smallest is : "+c);
                     }
+                break;
 
+                case 3:
+                    int x;
+                    boolean flag = false;
+                    System.out.println("Enter a number");
+                    x=sc.nextInt();
+                    for(int i = 2;i<=x/2;i++){
+                        if(x%2==0) {
+                            flag = true;
+                            break;
+                        }}
+                    if(!flag){
+                        System.out.println("number is prime");
+                    }
+                    else{
+                        System.out.println("number is not prime");
+                    }
+                break;
             }
             System.out.println("Do you want to continue:1 for yes 2 for no");
 
