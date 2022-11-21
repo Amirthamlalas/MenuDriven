@@ -17,15 +17,32 @@ public class MenuDriven {
                     n2 = sc.nextInt();
                     n3 = sc.nextInt();
                     if((n1>n2)&&(n1>n3)){
-                        System.out.println(n1);
+                        System.out.println("Largest is : "+n1);
 
                     } else if (n2>n3) {
-                        System.out.println(n2);
+                        System.out.println("Largest is : "+n2);
 
                     }
                     else{
-                        System.out.println(n3);
-            }
+                        System.out.println("Largest is : "+n3);
+                    }
+                break;
+                case 2:
+                    int a,b,c;
+                    System.out.println("Enter 3 numbers");
+                    a = sc.nextInt();
+                    b = sc.nextInt();
+                    c = sc.nextInt();
+                    if((a<b)&&(a<c)){
+                        System.out.println("smallest is : "+a);
+
+                    } else if (b<c) {
+                        System.out.println("smallest is : "+b);
+
+                    }
+                    else{
+                        System.out.println("smallest is : "+c);
+                    }
 
             }
             System.out.println("Do you want to continue:1 for yes 2 for no");
